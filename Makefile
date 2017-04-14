@@ -51,4 +51,4 @@ clean:
 
 $(BIN_NAME): $(SOURCE)
 	@echo "Compiling: $< -> $@"
-	@$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
